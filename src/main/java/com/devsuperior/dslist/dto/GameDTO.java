@@ -113,6 +113,8 @@ public class GameDTO {
     public int hashCode() {
         return Objects.hash(id, title, year, genre, platforms, score, imgUrl, shortDescription, longDescription);
     }
+
+
 }
 
 
